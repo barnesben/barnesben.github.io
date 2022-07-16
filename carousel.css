@@ -98,5 +98,5 @@ anchors are inline so you need ot make them block to go full width
 /* CUSTOM ADDITIONS */
 
 
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.05); }
+div.card .grow { transition: all .2s ease-in-out; }
+div.card .grow:hover { transform: scale(1.05); }
