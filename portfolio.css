@@ -5,7 +5,7 @@
 body {
   padding-top: 70px;
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  color: #FFFFF;
 }
 
 
@@ -98,5 +98,9 @@ anchors are inline so you need ot make them block to go full width
 /* CUSTOM ADDITIONS */
 
 
-div.card .grow { transition: all .2s ease-in-out; }
-div.card .grow:hover { transform: scale(1.05); }
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.05);}
+
+.customicon { transition:.2s ease-in-out;  }
+.customicon:hover { opacity: 0.75 }
+
