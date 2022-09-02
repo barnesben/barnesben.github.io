@@ -102,5 +102,200 @@ anchors are inline so you need ot make them block to go full width
 .grow:hover { transform: scale(1.05);}
 
 .customicon { transition:.2s ease-in-out;  }
-.customicon:hover { opacity: 0.75 }
+.customicon:hover { opacity: 0.60; }
 
+
+.lightlink { color: #e8e8e8; transition: all .2s ease-in-out;}
+.lightlink:hover { color:  grey; }
+
+
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* GRADIENT ANIMATIONS */
+
+.index-anim {
+    background: linear-gradient(270deg, #1b1b1b, #686868);
+    background-size: 400% 400%;
+
+    -webkit-animation: index-anim 60s ease infinite;
+    -moz-animation: index-anim 60s ease infinite;
+    animation: index-anim 60s ease infinite;
+}
+
+@-webkit-keyframes index-anim {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes index-anim {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes index-anim {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+
+
+ .within-without-bg {
+    background: linear-gradient(142deg, #393939, #b68f3a);
+    background-size: 400% 400%;
+
+    -webkit-animation: within-without-bg 45s ease infinite;
+    -moz-animation: within-without-bg 45s ease infinite;
+    animation: within-without-bg 45s ease infinite;
+}
+
+@-webkit-keyframes within-without-bg {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes within-without-bg {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes within-without-bg {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+
+
+
+
+
+
+/* SLIDER ADDITIONS */
+
+
+.slidercontainer { 
+ height: 73.5vw;
+ margin: 1vw auto;
+ max-height: 750px;
+ max-width: 1000px;
+ overflow: hidden;
+ width: 98vw;
+}
+.slidercontainer figure { 
+ background-image: url(680before.png);
+ background-size: cover;
+ font-size: 0;
+ height: 100%;
+ margin: 0; 
+ position: relative;
+ width: 100%; 
+}
+#compare {
+ background-image: url(680after.png);
+ background-size: cover;
+ bottom: 0;
+ border-right: 5px solid rgba(255,255,255,0.7);
+ box-shadow: 10px 0 15px -13px #000;
+ height: 100%;
+ max-width: 98.6%;
+ min-width: 0.6%;
+ overflow: visible;
+ position: absolute;
+ width: 50%; 
+ animation: first 2s 1 normal ease-in-out 0.1s; 
+ -webkit-animation: first 2s 1 normal ease-in-out 0.1s; 
+}
+input#slider {
+ -moz-appearance: none;
+ -webkit-appearance: none;
+ border: none; 
+ background: transparent;
+ cursor: col-resize;
+ height: 100vw;
+ left: 0;
+ margin: 0;
+ outline: none; 
+ padding: 0;
+ position: relative;
+ top: -100vw;
+ width: 100%;
+}
+input#slider::-moz-range-track { 
+ background: transparent; 
+}
+input#slider::-ms-track {
+ border: none; 
+ background-color: transparent;
+ height: 100vw; 
+ left: 0; 
+ outline: none; 
+ position: relative;
+ top: -100vw; 
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ cursor: col-resize;
+ color:transparent;
+}
+input#slider::-ms-fill-lower {
+ background-color:transparent;
+}
+input#slider::-webkit-slider-thumb {
+ -webkit-appearance:none;
+ height: 100vw;
+ width: 0.5%;
+ opacity: 0;
+}
+input#slider::-moz-range-thumb {
+ -moz-appearance: none;
+ height: 100vw;
+ width: 0.5%;
+ opacity: 0;
+}   
+input#slider::-ms-thumb {
+ height: 100vw;
+ width: 0.5%; 
+ opacity:0;
+}
+input#slider::-ms-tooltip {
+ display:none;
+}
+#compare::before {
+ background: url(https://webdevtrick.com/wp-content/uploads/comparision.png) no-repeat scroll 0 center transparent;
+ background-size:contain;
+ content: " ";
+ float: right;
+ height: 100%;
+ margin-right: -34px;
+ position: relative;
+ top:0;
+ width: 64px;
+}
+@keyframes first {
+  0% {width: 0%; }
+  50% {width: 80%; }
+  100% {width: 50%; }
+}
+@-webkit-keyframes first {
+  0% {width: 0%; }
+  50% {width: 80%; }
+  100% {width: 50%; }
+}
