@@ -1,108 +1,189 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="generator" content="Hugo 0.84.0">
-    <title>Ben Barnes | Portfolio</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+<head>
 
-    
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ben Barnes | Portfolio</title>
 
-    <!-- Bootstrap core CSS -->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
 
-    
-    <!-- Custom styles for this template -->
-    <link href="portfolio.css" rel="stylesheet">
-  </head>
-<body class = "index-anim" style = "background-color: #393939; color: white; background-image: linear-gradient(to bottom right, #393939, darkgrey);" >
-    
+
+  <link href="portfolio.css" rel="stylesheet">
+
+
+</head>
+
+
+
+
+
+
+
+<body data-bs-spy="scroll" data-bs-target="navbar">
+
+<main>
+
+
 <header id = "top">
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id = "navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Ben Barnes | Portfolio</a>
+      <a class="navbar-brand" href="index.html">Ben Barnes | Portfolio</a>
+      
+    <!--
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
+       
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Projects</a>
+            <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
-          <!--
+     
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="#section-3">Contact</a>
           </li>
-          -->
+   
         </ul>
-
+        
         <a class = "customicon" href = "https://www.linkedin.com/in/benjamin-j-barnes">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
             <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
             </svg>
         </a>
-
+      
 
       </div>
+    -->
+
     </div>
   </nav>
 </header>
 
-<main>
 
-  <div class="px-4 pb-3 text-center">
-    <div class="py-5">
-      <h1 class="display-4 fw-bold text-white">Projects</h1>
-      <div class="col-lg-8 mx-auto">
-        <p class="fs-5 mb-4" style="color: lightgrey">Here is a collection of my work organized into the following categories:</p>
-        <p>
-          <a href="#video-heading" class="btn btn-outline-light my-2">Video Production</a>
-          <!-- <a href="#motion-heading" class="btn btn-outline-light my-2">Motion Graphics</a> -->
-          <a href="#photo-heading" class="btn btn-outline-light my-2">Photography</a>
-          <a href="#ar-heading" class="btn btn-outline-light my-2">Augmented Reality</a>
-          <a href="#music-heading" class="btn btn-outline-light my-2">Music</a>
-          <a href="#webdev-heading" class="btn btn-outline-light my-2">Web Design</a>
-          
-        </p>
-      </div>
-    </div>
+
+
+<!-- INTRO SECTION /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+<section id = "about-me" style = "padding: 25px;">
+  <br><br><br><br>
+
+  <div class = "container" style = "background-color: #FFFFEF; padding: 15px;" >
+    
+    <div class = "row" >
+
+      <div class = "col-md">
+        <img src="header-cropped.jpg" class = "img-fluid" style = "height:100%; object-fit:cover;">
+      </div> 
+      <!-- column 1 end -->
+
+      <div class = "col-md" style = "text-align: center; padding-top: 25px;">
+
+        <h1 style = "color: #3E6089">My name is <br>Ben Barnes.</h1>
+
+        <div style = "padding-left:25px; padding-right:25px">
+
+        <hr style = "border:none; height:2px; background-color: #3E6089; ">
+        <p> I am a designer / photographer / video editor / motion graphics artist / musician based in the San Francisco Bay Area.</p>
+        <p> I graduated from the University of Texas at Austin with a <b>degree in Arts and Entertainment Technologies</b>, a <b>minor in Business</b>, and a <b>certificate in Elements of Computing</b>.</p>
+
+        <p>I am currently looking for a full-time position, but open to freelance work.</p>
+
+        <p><b>For business inquiries (or just to say hello):</b><br><a href="mailto:benjamin-barnes@utexas.edu" class = "lightlink">benjamin-barnes@utexas.edu</a></p>
+
+        <hr style = "border:none; height:2px; background-color: #3E6089; ">
+        <a href="benjamin-barnes-resume.pdf" class="btn btn-outline-dark my-2">See my Resume</a>
+
+        <br>
+
+        <p style = "padding-top: 12px">
+        <a class = "customicon" href = "https://www.linkedin.com/in/benjamin-j-barnes"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#3E6089" class="bi bi-linkedin" viewBox="0 0 16 16"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg></a>
+
+        &emsp;
+
+        <a class = "customicon" href = "https://www.instagram.com/benjamin.j.barnes/">
+           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#3E6089" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+            </svg>
+        </a>
+      </p>
+
+
+        </div>
+      </div> 
+      <!-- column 2 end -->
+
+  </div> 
+  <!-- row end -->
+
+</section>
+
+
+
+<br><br>
+
+  <div align="center">
+     <a class = "customicon" style = "color:#FFFFEF; text-decoration: none;" href="#projects"> My Work <br>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+        </svg>  
+      </a>
   </div>
 
- <div class="container px-4 py-5" id="video-heading">
+
+
+<!-- PROJECTS /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+<section id = "projects" >
+  <br><br><br>
+
+  <div class="container px-4" id="video-heading" style="background-color: #FFFFEF; padding-top:3em; padding-bottom:1em;">
+  <h1 style = "text-align:center;">My Work</h1>
   <br>
-    <h2 class="pb-2 border-bottom" >Video Production & Editing</h2>
+<div align = "center">
+  <a href="#video-heading" class="btn btn-outline-dark my-2">Video Editing & Animation</a>
+  <a href="#design-heading" class="btn btn-outline-dark my-2">Design</a>
+  <a href="#webdev-heading" class="btn btn-outline-dark my-2">Web Design</a>
+  <a href="#photo-heading" class="btn btn-outline-dark my-2">Photography</a>
+  <a href="#ar-heading" class="btn btn-outline-dark my-2">Augmented Reality</a>
+  <a href="#music-heading" class="btn btn-outline-dark my-2">Music</a>
 
-    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-2">
+</div>
+
+  <br><br><br>
+
+
+<!-- VIDEO ==============================================================================================================================-->
+
+  <h2 class="pb-2 border-bottom">Video Production, Editing & Animation</h2>
+
+  <br>
+
+  <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-2">
     
-
 <!-- ROW ONE -->  
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/680thumbnail.png'); background-size: cover; background-repeat: no-repeat;">
+      <div class="col" style = "margin:0; padding:0;">
+
+
+        <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/680thumbnail.png'); background-size: cover; background-repeat: no-repeat; object-fit: cover; border-color:#FFFFEF;">
+
+
           <div class="d-flex flex-column h-100 p-5 text-white text-shadow-1">
 
              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">The 680 Homes Group</h2>
@@ -114,27 +195,11 @@
           </div>
         </div>
       </div>
-      
-      
-      
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/withinwithout.png'); background-size: cover; background-repeat: no-repeat;">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
 
-             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">Within and Without</h2> </a>
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="d-flex align-items-center me-3">
-                   <a class = "stretched-link" style = "color: lightgrey;" href="withinandwithout.html"> <small>See More</small> </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      
 
-   
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/magicUT.png'); background-size: cover; background-repeat: no-repeat;">
+      <div class="col" style = "margin:0; padding:0;">
+        <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/magicUT.png'); background-size: cover; background-repeat: no-repeat; border-color:#FFFFEF;">
+
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
 
              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">The Magic of UT</h2>
@@ -148,16 +213,15 @@
       </div>
 
 
-<!-- ROW TWO -->
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/cryptid-trailer.png'); background-size: cover; background-repeat: no-repeat;">
+
+      <div class="col" style = "margin:0; padding:0;">
+        <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/withinwithout.png'); background-size: cover; background-repeat: no-repeat; object-fit: cover; border-color:#FFFFEF;">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
 
-             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">CryptID Trailer</h2> </a>
-
+             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">Within and Without</h2> </a>
             <ul class="d-flex list-unstyled mt-auto">
               <li class="d-flex align-items-center me-3">
-                   <a class = "stretched-link" style = "color: lightgrey;" href="cryptid.html#cryptid-trailer"> <small>See More</small> </a>
+                   <a class = "stretched-link" style = "color: lightgrey;" href="withinandwithout.html"> <small>See More</small> </a>
               </li>
             </ul>
           </div>
@@ -165,8 +229,28 @@
       </div>
 
 
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/quarantinechristmas.png'); background-size:cover; background-repeat: no-repeat;">
+
+<!-- ROW TWO -->
+      <div class="col" style = "margin:0; padding:0;">
+        <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/cryptid-trailer.png'); background-size: cover; background-repeat: no-repeat; object-fit: cover; border-color:#FFFFEF;">
+
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+
+             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">CryptID Trailer</h2> </a>
+
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="d-flex align-items-center me-3">
+                   <a class = "stretched-link" style = "color: lightgrey;" href="cryptid.html"> <small>See More</small> </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col" style = "margin:0; padding:0;">
+        <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/quarantinechristmas.png'); background-size: cover; background-repeat: no-repeat; object-fit: cover; border-color:#FFFFEF;">
+
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
 
              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">Quarantine Christmas</h2> </a>
@@ -183,15 +267,16 @@
 
 
 
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/skyblues.png'); background-size:cover; background-repeat: no-repeat;">
+      <div class="col" style = "margin:0; padding:0;">
+        <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/skyblues.png'); background-size: cover; background-repeat: no-repeat; object-fit: cover; border-color:#FFFFEF;">
+
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
 
-             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">Sky Blues Jazz Band</h2> </a>
+             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">Sky Blues Big Band</h2> </a>
 
             <ul class="d-flex list-unstyled mt-auto">
               <li class="d-flex align-items-center me-3">
-                   <a class = "stretched-link" style = "color: lightgrey;" href="https://youtu.be/0Vgt-NdyGu0"> <small>See More</small> </a>
+                   <a class = "stretched-link" style = "color: lightgrey;" href="skyblues_video.html"> <small>See More</small> </a>
               </li>
               </li>
             </ul>
@@ -212,21 +297,23 @@
 
 
 
+<!-- DESIGN ==============================================================================================================================-->
 
-<!--
-<div class="container px-4 py-5" id="motion-heading">
+
+<div class="container px-4 py-5" id="design-heading" style="background-color: #FFFFEF; padding-top:3em; padding-bottom:1em;">
     <br>
-    <h2 class="pb-2 border-bottom">Motion Graphics & Animation</h2>
+    <h2 class="pb-2 border-bottom">Design</h2>
+    <br>
 
     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-2">
       
-      <div class="col">
+      <div class="col" style = "margin:0; padding:0;">
 
 
-              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/none.png'); background-size: cover; background-repeat: no-repeat;">
+              <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/sbbb_thumbnail.png'); background-size: cover; background-repeat: no-repeat; object-fit: cover; border-color:#FFFFEF;">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
 
-             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">Motion Reel</h2>
+             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">Sky Blues: Branding & Collateral</h2>
 
             <ul class="d-flex list-unstyled mt-auto">
               <li class="d-flex align-items-center me-3">
@@ -238,15 +325,15 @@
       </div>
 
 
-      <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/bssm-loop.gif'); background-size: cover; background-repeat: no-repeat;">
+      <div class="col" style = "margin:0; padding:0;">
+                <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/rm_newsletter.png'); background-size: cover; background-repeat: no-repeat; object-fit: cover; border-color:#FFFFEF;">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
 
-             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">Animated Album Covers</h2> </a>
+             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">Reflection Meditation: Newsletter</h2> </a>
 
             <ul class="d-flex list-unstyled mt-auto">
               <li class="d-flex align-items-center me-3">
-                   <a class = "stretched-link" style = "color: lightgrey;" href="contact.html"> <small>See More</small> </a>
+                   <a class = "stretched-link" style = "color: lightgrey;" href="https://mailchi.mp/0bbd59881b20/new-year-news?e=c14b22a52e"> <small>See More</small> </a>
               </li>
             </ul>
           </div>
@@ -254,11 +341,11 @@
       </div>
 
 
-      <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/none.png'); background-size: cover; background-repeat: no-repeat;">
+      <div class="col" style = "margin:0; padding:0;">
+                <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/utext_thumb.png'); background-size: cover; background-repeat: no-repeat; object-fit: cover; border-color:#FFFFEF;">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
 
-             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Project Name</h2> </a>
+             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">UText: Mobile App Concept & Branding</h2> </a>
 
             <ul class="d-flex list-unstyled mt-auto">
               <li class="d-flex align-items-center me-3">
@@ -277,20 +364,89 @@
   </div>
 
 
+
+<!-- WEB DESIGN ==============================================================================================================================-->
+
+
+<div class="container px-4 py-5" id="webdev-heading" style="background-color: #FFFFEF; padding-top:3em; padding-bottom:1em;">
+  <br>
+    <h2 class="pb-2 border-bottom" >Web Design</h2>
+
+    <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
+    
+
+<!-- ROW ONE -->  
+      <div class="col" style = "margin:0; padding:0;">
+        <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/reflection.png'); background-size: cover; background-repeat: no-repeat; object-fit: cover; border-color:#FFFFEF;">
+          <div class="d-flex flex-column h-100 p-5 text-white text-shadow-1">
+
+             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">Reflection Meditation</h2>
+
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="d-flex align-items-center me-3">
+                   <a class = "stretched-link" style = "color: lightgrey;" href="https://www.reflectionmeditation.com"> <small>See More</small> </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+ 
+      <div class="col" style = "margin:0; padding:0;">
+        <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/thiswebsite.png'); background-size: cover; background-repeat: no-repeat; object-fit: cover; border-color:#FFFFEF;">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+
+             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">This Website :)</h2>
+
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="d-flex align-items-center me-3">
+                   <a class = "stretched-link" style = "color: lightgrey;" href="#top"> <small>See More</small> </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+<!--
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/unsplash-photo-2.jpg'); background-size: 50px;">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+
+             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: black;">CS 329E Final</h2> </a>
+
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="d-flex align-items-center me-3">
+                   <a class = "stretched-link" style = "color: lightgrey;" href="contact.html"> <small>See More</small> </a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
 -->
 
+    
+</div>
 
 
- <div class="container px-4 py-5" id="photo-heading">
+
+
+
+<!-- PHOTOGRAPHY ==============================================================================================================================-->
+
+
+ <div class="container px-4 py-5" id="photo-heading" style="background-color: #FFFFEF; padding-top:3em; padding-bottom:1em;">
     <br>
     <h2 class="pb-2 border-bottom">Photography</h2>
 
     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
       
-      <div class="col">
+      <div class="col" style = "margin:0; padding:0;">
 
 
-              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/portrait.png'); background-size: cover; background-repeat: no-repeat;">
+              <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/portrait.png'); background-size: cover; background-repeat: no-repeat; object-fit: cover; border-color:#FFFFEF;">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
 
              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">Portraits</h2>
@@ -305,8 +461,8 @@
       </div>
 
 
-      <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('astro/astro.png'); background-size: cover; background-repeat: no-repeat;">
+      <div class="col" style = "margin:0; padding:0;">
+                <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/astro.png'); background-size: cover; background-repeat: no-repeat; object-fit: cover; border-color:#FFFFEF;">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
 
              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">Astro</h2> </a>
@@ -321,8 +477,8 @@
       </div>
 
 
-      <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/misc.png'); background-size: cover; background-repeat: no-repeat;">
+      <div class="col" style = "margin:0; padding:0;">
+                <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/misc.png'); background-size: cover; background-repeat: no-repeat; object-fit: cover; border-color:#FFFFEF;">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
 
              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">Misc.</h2> </a>
@@ -344,18 +500,19 @@
   </div>
 
 
+<!-- AUGMENTED REALITY ===========================================================================================================================-->
 
 
- <div class="container px-4 py-2" id="ar-heading">
+ <div class="container px-4 py-2" id="ar-heading" style="background-color: #FFFFEF; padding-top:3em; padding-bottom:1em;">
     <br>
     <h2 class="pb-2 border-bottom">Augmented Reality</h2>
 
-    <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-2">
+    <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
       
-      <div class="col">
+      <div class="col" style = "margin:0; padding:0;">
 
 
-              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/cryptid.png'); background-size: cover; background-repeat: no-repeat;">
+              <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/cryptid.png'); background-size: cover; background-repeat: no-repeat; object-fit: cover; border-color:#FFFFEF;">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
 
              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">CryptID: Tabletop Card Game</h2>
@@ -370,8 +527,8 @@
       </div>
 
 
-      <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/mrm.png'); background-size: cover; background-repeat: no-repeat;">
+      <div class="col" style = "margin:0; padding:0;">
+                <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/mrm.png'); background-size: cover; background-repeat: no-repeat; object-fit: cover; border-color:#FFFFEF;">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
 
              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mixed Reality for the Masses</h2> </a>
@@ -410,15 +567,19 @@
 
 
 
-  <div class="container px-4 py-5" id="music-heading">
+
+<!-- MUSIC ==============================================================================================================================-->
+
+
+  <div class="container px-4 py-5" id="music-heading" style="background-color: #FFFFEF; padding-top:3em; padding-bottom:1em;">
     <h2 class="pb-2 border-bottom">Music</h2>
 
-      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-2">
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
       
-      <div class="col">
+      <div class="col" style = "margin:0; padding:0;">
 
 
-              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/marina.png'); background-size: cover; background-repeat: no-repeat;">
+              <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/marina.png'); background-size: cover; background-repeat: no-repeat; object-fit: cover; border-color:#FFFFEF;">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
 
              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">Marina</h2>
@@ -433,11 +594,11 @@
       </div>
 
 
-      <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/giant.png'); background-size: cover; background-repeat: no-repeat;">
+      <div class="col" style = "margin:0; padding:0;">
+                <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/giant.png'); background-size: cover; background-repeat: no-repeat; object-fit: cover; border-color:#FFFFEF;">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
 
-             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Giant</h2> </a>
+             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">Giant</h2> </a>
 
             <ul class="d-flex list-unstyled mt-auto">
               <li class="d-flex align-items-center me-3">
@@ -449,11 +610,11 @@
       </div>
 
 
-      <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/hades.png'); background-size: cover; background-repeat: no-repeat;">
+      <div class="col" style = "margin:0; padding:0;">
+                <div class="card card-cover h-100 w-100 overflow-hidden text-white bg-dark rounded-0 border-5 customicon" style="background-image: url('thumbnails/hades.png'); background-size: cover; background-repeat: no-repeat; object-fit: cover; border-color:#FFFFEF;">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
 
-             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Hades: Style Study</h2> </a>
+             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">Hades: Style Study</h2> </a>
 
             <ul class="d-flex list-unstyled mt-auto">
               <li class="d-flex align-items-center me-3">
@@ -473,159 +634,35 @@
 
 
 
- 
- <div class="container px-4 py-5" id="webdev-heading">
-  <br>
-    <h2 class="pb-2 border-bottom" >Web Design</h2>
-
-    <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-2">
-    
-
-<!-- ROW ONE -->  
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/reflection.png'); background-size: cover; background-repeat: no-repeat;">
-          <div class="d-flex flex-column h-100 p-5 text-white text-shadow-1">
-
-             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">Reflection Meditation</h2>
-
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="d-flex align-items-center me-3">
-                   <a class = "stretched-link" style = "color: lightgrey;" href="https://www.reflectionmeditation.com"> <small>See More</small> </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
- 
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/thiswebsite.png'); background-size: cover; background-repeat: no-repeat;">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-
-             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: 2px 2px 3px #3d3d3d;">This Website :)</h2>
-
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="d-flex align-items-center me-3">
-                   <a class = "stretched-link" style = "color: lightgrey;" href="#top"> <small>See More</small> </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-
-<!--
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('thumbnails/unsplash-photo-2.jpg'); background-size: 50px;">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-
-             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="text-shadow: black;">CS 329E Final</h2> </a>
-
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="d-flex align-items-center me-3">
-                   <a class = "stretched-link" style = "color: lightgrey;" href="contact.html"> <small>See More</small> </a>
-              </li>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
--->
-<!-- ROW TWO 
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('unsplash-photo-2.jpg');">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-
-             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Project Name</h2> </a>
-
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="d-flex align-items-center me-3">
-                   <button type="button" class="btn btn-link stretched-link" data-bs-toggle="modal" data-bs-target="#exampleModal">See More</button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('unsplash-photo-2.jpg');">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-
-             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Project Name</h2> </a>
-
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="d-flex align-items-center me-3">
-                   <button type="button" class="btn btn-link stretched-link" data-bs-toggle="modal" data-bs-target="#exampleModal">See More</button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-
-
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg grow" style="background-image: url('unsplash-photo-2.jpg');">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-
-             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Project Name</h2> </a>
-
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="d-flex align-items-center me-3">
-                   <button type="button" class="btn btn-link stretched-link" data-bs-toggle="modal" data-bs-target="#exampleModal">See More</button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-
-      </div>
-    </div> 
-  
-  --> 
-    
-
-  </div>
-
-  </div>
-
-
-
 
 
   </div>
 
 
 
-<div align="center">
-<a href="#top" class="btn btn-outline-light my-2">Back to Top</a>
-</div>
+  </div>
+
+  <br><br>
 
 
-<!--
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark">
-    <div class="col-md-4 d-flex align-items-center">
-      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+  <div align="center">
+     <a class = "customicon" style = "color:#FFFFEF; text-decoration: none;" href="#top"> 
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFFFEF" class="bi bi-chevron-up" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+      </svg>
+        <br>
+        Back to Top
       </a>
-      <span class="mb-3 mb-md-0">&copy; 2022</span>
-    </div>
+  </div>
 
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      benjamin-barnes@utexas.edu
-    </ul>
-  </footer>
--->
+<br><br>
+
+
+</section>
+
+
+
 
 </main>
-
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
-
-      
-  </body>
+</body>
 </html>
