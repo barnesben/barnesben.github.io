@@ -1,75 +1,92 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+
+html {
+
+	scroll-behavior: smooth;
+
+}
+
 
 body {
-  padding-top: 70px;
-  padding-bottom: 3rem;
-  color: #FFFFF;
+  color: #3E6089;
+  background-color: #1F3044;
+  font-family: 'Optima', sans-serif;
+
 }
 
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
+h1 {
 
-/* Carousel base class */
-/*
-Removes white gap between slides
-*/
-.carousel {
-  background:#444;
+  font-size: 4rem;
+  font-family: 'Gloock', serif;
+  
 }
 
-/*
-Forces image to be 100% width and not max width of 100%
-*/
-.carousel-item .img-fluid {
-  width:100%;
-  height:auto;
-}
+h4 {
 
-/* 
-anchors are inline so you need ot make them block to go full width
-*/
-.carousel-item a {
-  display: block;
-  width:100%;
+   font-family: 'Gloock', serif;
+
 }
 
 
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-.marketing h2 {
-  font-weight: 400;
-}
-/* rtl:begin:ignore */
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-}
-/* rtl:end:ignore */
+/* https://codepen.io/DuskoStamenic/pen/ZEvBKdw */
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
 
 
-/* Featurettes
-------------------------- */
+.parallax-container {
+  display: flex;
+  min-height: 100vw;
+  width: 100%;
+  flex-direction: column;
+  /*align-items: center;
+  justify-content: center;
 
-.featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  /*  this is where the magic happens:  */
+  background-attachment: fixed;
+
+  background-image: url(header.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
 }
 
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  /* rtl:remove */
-  letter-spacing: -.05rem;
+.buffer {
+  width: 100%;
+  min-height: 60vh;
+  background-color: var(--color);
 }
+
+.parallax-container2 {
+  flex-direction: column;
+  flex-wrap: wrap;
+
+
+  background-image: url(astro.png);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+
+
+
+
+p {
+
+color: #3E6089;
+font-size: 18px;
+}
+
+
+b {
+
+color: ;
+
+}
+
 
 
 /* RESPONSIVE CSS
@@ -95,6 +112,8 @@ anchors are inline so you need ot make them block to go full width
 }
 
 
+
+
 /* CUSTOM ADDITIONS */
 
 
@@ -105,8 +124,13 @@ anchors are inline so you need ot make them block to go full width
 .customicon:hover { opacity: 0.60; }
 
 
-.lightlink { color: #e8e8e8; transition: all .2s ease-in-out;}
-.lightlink:hover { color:  grey; }
+.lightlink { color: #3E6089; transition: all .2s ease-in-out;}
+.lightlink:hover { color:  #1F3044;}
+
+
+
+
+
 
 
 .iframe-container {
@@ -299,3 +323,70 @@ input#slider::-ms-tooltip {
   50% {width: 80%; }
   100% {width: 50%; }
 }
+
+
+/* ANGLED BOXES */
+
+.angle-section-1 {
+  /*background-image: linear-gradient(45deg, #654ea3, #eaafc8);*/
+  transform: skewY(2deg);
+  color: white;
+}
+
+.angle-section-2 {
+  background-image: linear-gradient(45deg, #393939, #969696);
+  transform: skewY(2deg);
+}
+
+.angle-section-3 {
+  background-image: linear-gradient(45deg, #e62f8a, #5f8cb4);
+  transform: skewY(2deg);
+}
+
+.angle-section-4 {
+  background-image: linear-gradient(45deg, #393939, #969696);
+  /*transform: skewY(2deg);*/
+}
+
+.content {
+  max-width: 50em;
+  margin: 0 auto;
+  transform: skewY(-2deg);
+}
+
+.content-straight {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+
+
+card {
+
+  border-radius: 0;
+
+}
+
+
+
+
+.btn-outline-dark {
+  border: 1px solid #3E6089;
+  color: #3E6089;
+}
+.btn-outline-dark:hover, .btn-outline-dark:focus, .btn-outline-dark:active, .btn-outline-dark.active, .open > .dropdown-toggle.btn-outline-dark {
+  color: #FFFFEF;
+  background-color: #3E6089;
+  border-color: #3E6089;
+}
+.btn-outline-dark:active, .btn-outline-dark.active {
+  border-color: #007299;
+  color: #3E6089;
+  fill: white;
+  box-shadow: none;
+}
+
+
+
+
+
